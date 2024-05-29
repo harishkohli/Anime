@@ -1,0 +1,316 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropdown-toggle::after { 
+    content: none; 
+} 
+li{
+    padding: 5px;
+}
+.container .collapse 
+{
+    margin-left: 190px;
+}
+.container .collapse .navbar-nav .nav-item 
+{
+    margin-left: 50px;
+} 
+header{
+    background-color:black;
+    
+}
+.container .collapse .navbar-nav .nav-item .nav-link
+{
+    color: rgb(226, 58, 11);
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.container .navbar-toggler
+{
+    color: rgb(188, 71, 16);
+}
+.container .navbar-toggler-icon
+{
+    background-color: rgb(210, 88, 31);
+}
+.container .collapse .navbar-nav .nav-item .nav-link:hover
+{
+    color: rgb(249, 83, 38);
+}
+#about
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutimg{
+    margin: 40px;
+    margin-top: 100px;
+    display: flex;
+    height:400px; 
+    width:700px;
+}
+.aboutpara
+{
+    display: flex;
+    font-size: 18px;
+  margin: 90px 40px 40px 0;  
+  text-align: justify;
+  font-weight: 700;
+  color: rgb(6, 6, 6);
+
+}
+
+h3{
+    
+    color:black;
+  margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+.h6text
+{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight:bold;
+    padding-top: 20px;
+}
+.dropdown-menu
+{
+    background-color: black;
+}
+.dropdown-menu .dropdown-item
+{
+    color: rgb(226, 58, 11);
+    background-color: black;
+    font-weight: 600;
+}
+.dropdown-menu .dropdown-item:hover
+{
+    color: rgb(249, 83, 38);
+}
+.toprated1
+{
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 370px;
+    width: 550px;
+
+}
+.card
+{
+    padding-left: 20px;
+    margin-top: 50px;
+    background-color:rgb(248, 133, 80);
+    padding-bottom: 15px;
+}
+#top-AnimeList
+{
+    display: flex;
+}
+.texth4
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:black;
+    font-weight: 900;
+}
+.recom
+{
+    display: flex;
+}
+.h6txt
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    color:black;
+    font-size: 25px;
+}
+#Backbtn
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    margin: 40px;
+    align-items: center;
+   background-color: rgb(226, 79, 11);
+   border-radius: 8px;
+   
+}
+.Backbtn
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600px;
+    padding-bottom: 2px;
+}
+#Nextbtn
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    align-items: center;
+    margin: 40px;
+   background-color:rgb(226, 79, 11);
+   border-radius: 8px;
+}
+.Nextbtn
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600px;
+    padding-bottom: 3px;
+}
+.bafrobuttons
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         /*Media query*/
+@media(min-width:310px)and (max-width:1300px)
+{
+    #about
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    .aboutimg{
+        margin: 40px;
+        display: flex;
+        height:180px; 
+        width:240px;
+       
+    }
+    .aboutpara
+   {
+     display: flex;
+     margin: 40px 40px 40px 40px;  
+     text-align: justify;
+     font-weight: 500;
+     color: rgb(6, 6, 6);
+   }
+   .container .collapse 
+   {
+     margin-left: 50px;
+   }
+
+   .toprated1
+{
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 370px;
+    width: 550px;
+
+}
+.card
+{
+    margin-top: 50px 0 20px 20px;
+    background-color:rgb(248, 133, 80);
+    padding-bottom: 40px;
+}
+#top-AnimeList
+{
+    display: flex;
+    flex-direction: column;
+}
+.recom
+{
+    display: flex;
+    flex-direction: column;
+}
+.bafrobuttons
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Backbtn
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    margin: 40px 40px 40px 150px;
+    align-items: center;
+   background-color: rgb(226, 79, 11);
+   border-radius: 8px;
+   
+}
+
+}
+@media(min-width:520px)and (max-width:880px) {
+    #about
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    .aboutimg{
+        margin: 40px;
+        display: flex;
+        height:300px; 
+        width:500px;
+       
+    }
+    .aboutpara
+   {
+
+    display: flex;
+    margin: 40px 40px 40px 40px;  
+    text-align: justify;
+    font-weight: 500;
+    color: rgb(6, 6, 6);
+   }
+   .toprated1
+   {
+    padding-right: 40px;
+       padding-left: 15px;
+       padding-top: 10px;
+       height: 370px;
+       width: 590px;
+   
+   }
+   .card
+   {
+      margin: 60px;
+       margin: 50px 0 20px 20px;
+       background-color:rgb(248, 133, 80);
+       padding-bottom: 40px;
+   }
+
+}
