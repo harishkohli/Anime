@@ -312,5 +312,18 @@ h3{
        background-color:rgb(248, 133, 80);
        padding-bottom: 40px;
    }
+    #Nextbtn
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    align-items: center;
+    margin: 40px;
+    margin-left:80px;
+   background-color:rgb(226, 79, 11);
+   border-radius: 8px;
+}
 
 }
